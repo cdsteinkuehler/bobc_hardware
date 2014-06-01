@@ -45,8 +45,38 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 5 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Date "1 may 2014"
+=======
+Date "2 may 2014"
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+Rev "v1.0"
+=======
+Date "8 may 2014"
+Rev "v2.1"
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+Date "12 may 2014"
+=======
+Date "14 may 2014"
+>>>>>>> 2e9c80b828d9f7fd76680021f7e01e7a9f9818db
+=======
+Date "23 may 2014"
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
 Date "25 may 2014"
+<<<<<<< HEAD
+>>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
 Rev "v2.2"
+>>>>>>> 8ba487aad506868564870d32947b4e914086f93d
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
 Comment2 "Derived from RAMPS-FD by Bob Cousins"
@@ -318,7 +348,11 @@ $EndComp
 Text GLabel 9100 4400 2    50   Output ~ 0
 AIN3
 Text Notes 9200 4600 0    50   ~ 0
+<<<<<<< HEAD
+Shunt typically populated\nRemove to support\n4-wire touch-screen
+=======
 Shunt populated by default\nRemove to support\n4-wire touch-screen\nusing AIN 0-3
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
 Text GLabel 8700 2300 2    50   UnSpc ~ 0
 ADC_GND
 Text GLabel 8700 3200 2    50   UnSpc ~ 0
@@ -895,14 +929,29 @@ Wire Wire Line
 	3200 3300 3200 4400
 Connection ~ 3200 4400
 Wire Wire Line
+<<<<<<< HEAD
+	3700 4400 2800 4400
+=======
 	3100 4400 3700 4400
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
 $Comp
 L SHUNT S501
 U 1 1 5361A40B
 P 9700 4350
 F 0 "S501" H 9700 4450 60  0000 C CNN
 F 1 "SHUNT" H 9700 4250 60  0000 C CNN
+<<<<<<< HEAD
+<<<<<<< HEAD
+F 2 "~" H 9700 4350 60  0000 C CNN
+F 3 "~" H 9700 4350 60  0000 C CNN
+	1    9700 4350
+	1    0    0    -1  
+$EndComp
+=======
+F 2 "" H 9700 4350 60  0000 C CNN
+=======
 F 2 "Shunt" H 9700 4350 60  0001 C CNN
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 F 3 "" H 9700 4350 60  0000 C CNN
 F 4 "TE" H 9200 2450 60  0001 C CNN "Mfg"
 F 5 "382811-8" H 9200 2450 60  0001 C CNN "PartNo"
@@ -919,10 +968,16 @@ Text Label 2200 4600 0    60   ~ 0
 SPI_CS0-5V
 Text Notes 1800 5000 0    75   ~ 0
 P503 may be used for:\n* Additional digital I/O\n* CRAMP3 add-on board\n* SPI expansion
+<<<<<<< HEAD
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 Connection ~ 1800 4300
 Connection ~ 1800 4400
 Connection ~ 1800 4500
 Connection ~ 1800 4600
+<<<<<<< HEAD
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
 Text Notes 1700 4450 2    50   ~ 0
 STEP_V
 Text Notes 1700 4350 2    50   ~ 0
@@ -931,4 +986,5 @@ Text Notes 1700 4650 2    50   ~ 0
 DIR_V
 Text Notes 1700 4550 2    50   ~ 0
 DIR_W
+>>>>>>> 8ba487aad506868564870d32947b4e914086f93d
 $EndSCHEMATC

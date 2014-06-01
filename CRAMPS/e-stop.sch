@@ -45,15 +45,53 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 3 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Date "1 may 2014"
+=======
+Date "2 may 2014"
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+Rev "v1.0"
+=======
+Date "8 may 2014"
+Rev "v2.1"
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+Date "12 may 2014"
+=======
+Date "14 may 2014"
+>>>>>>> 2e9c80b828d9f7fd76680021f7e01e7a9f9818db
+=======
+Date "23 may 2014"
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
 Date "25 may 2014"
+<<<<<<< HEAD
+>>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
 Rev "v2.2"
+>>>>>>> 8ba487aad506868564870d32947b4e914086f93d
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
 Comment2 "Derived from RAMPS-FD by Bob Cousins"
 Comment3 "Copyright 2014 GPL v3"
 Comment4 "CRAMPS by Charles Steinkuehler and Murray Lindeblom"
 $EndDescr
+<<<<<<< HEAD
+<<<<<<< HEAD
+Text Notes 2400 3500 0    60   ~ 0
+=======
+Text Notes 2400 3900 0    60   ~ 0
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 Text Notes 2400 4200 0    60   ~ 0
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
 Emergency Stop switch\n(Normally Closed type)\nuse shunt if not present
 Text GLabel 6900 2800 2    50   Output ~ 0
 FET4_BUF
@@ -351,8 +389,17 @@ F 5 "GRM188R71C104KA01D" H 1650 7350 60  0001 C CNN "PartNo"
 	1    1400 7100
 	1    0    0    -1  
 $EndComp
+<<<<<<< HEAD
+<<<<<<< HEAD
+Text Notes 1700 5750 0    60   Italic 0
+=======
+Text Notes 1700 6150 0    60   Italic 0
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+Address and WP pins\nhave internal pull-down\nDefault address is no\nshunts populated
+=======
 Text Notes 1700 6050 0    60   ~ 0
 Address and WP pins have internal pull-down\nDefault configuration is no shunts populated:\nAddr = 0xA8\nWP = Disabled (writes allowed)
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 $Comp
 L HEADER_2X2 JP301
 U 1 1 53319970
@@ -595,7 +642,42 @@ Wire Wire Line
 Wire Wire Line
 	5800 1000 5800 1100
 Wire Wire Line
+<<<<<<< HEAD
+<<<<<<< HEAD
 	6200 2400 6900 2400
+<<<<<<< HEAD
+=======
+	6200 2400 6800 2400
+Wire Wire Line
+	6800 2400 6900 2400
+Wire Wire Line
+	6200 2200 6700 2200
+Wire Wire Line
+	6700 2200 8500 2200
+Wire Wire Line
+	8500 2200 8600 2200
+Wire Wire Line
+	6200 2500 6700 2500
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
+	6200 2400 6900 2400
+Wire Wire Line
+	6200 2200 8600 2200
+<<<<<<< HEAD
+>>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
+Wire Wire Line
+	6200 2500 6900 2500
+Wire Wire Line
+	6200 2900 6900 2900
+Wire Wire Line
+<<<<<<< HEAD
+	6500 2900 6900 2900
+Wire Wire Line
+<<<<<<< HEAD
+=======
 Wire Wire Line
 	6200 2200 8600 2200
 Wire Wire Line
@@ -603,7 +685,20 @@ Wire Wire Line
 Wire Wire Line
 	6200 2900 6900 2900
 Wire Wire Line
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 	6200 3000 6900 3000
+=======
+	6200 3000 6400 3000
+Wire Wire Line
+	6400 3000 6900 3000
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
+	6200 3000 6900 3000
+<<<<<<< HEAD
+>>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
 Wire Wire Line
 	5800 1300 5800 1400
 Wire Notes Line
@@ -697,7 +792,37 @@ Wire Wire Line
 	2750 7600 2750 7700
 Connection ~ 2750 7600
 Wire Wire Line
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	1400 6100 2750 6100
+=======
+=======
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+	1400 6500 1700 6500
+Wire Wire Line
+	1700 6500 1900 6500
+Wire Wire Line
+	1900 6500 2000 6500
+Wire Wire Line
+	2000 6500 2750 6500
+<<<<<<< HEAD
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+Wire Wire Line
+	2200 7300 2200 7600
+=======
 	1400 6500 2750 6500
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
+	1400 6500 2750 6500
+<<<<<<< HEAD
+>>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
 Wire Wire Line
 	1900 6600 1900 6500
 Connection ~ 1900 6500
@@ -714,12 +839,58 @@ Wire Wire Line
 	2750 6500 2750 6600
 Connection ~ 3500 6900
 Wire Wire Line
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	3350 6600 3900 6600
+Wire Wire Line
+	3350 6500 3900 6500
+Connection ~ 3700 6600
+Wire Wire Line
+	3500 6000 3500 6200
+=======
+	3350 7000 3700 7000
+=======
+	3350 7000 3900 7000
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+	3350 7000 3700 7000
+Wire Wire Line
+	3700 7000 3900 7000
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+Wire Wire Line
+	3350 6900 3500 6900
+Wire Wire Line
+	3500 6900 3900 6900
+Connection ~ 3700 7000
+Wire Wire Line
+<<<<<<< HEAD
+<<<<<<< HEAD
+	3500 6400 3500 6500
+Wire Wire Line
+	3500 6500 3500 6600
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
+	3500 6400 3500 6600
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+	3500 6400 3500 6500
+Wire Wire Line
+	3500 6500 3500 6600
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
 	3350 7000 3900 7000
 Wire Wire Line
 	3350 6900 3900 6900
 Connection ~ 3700 7000
 Wire Wire Line
 	3500 6400 3500 6600
+<<<<<<< HEAD
+>>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
 Wire Wire Line
 	3500 6500 3700 6500
 Wire Wire Line
@@ -761,14 +932,73 @@ Wire Wire Line
 Wire Wire Line
 	1700 4600 1600 4600
 Wire Wire Line
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	1600 4100 1600 4300
+Connection ~ 1600 4200
+=======
+	1600 4500 1600 4600
+Wire Wire Line
+	1600 4600 1600 4700
+=======
 	1600 4500 1600 4700
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+	1600 4500 1600 4600
+Wire Wire Line
+	1600 4600 1600 4700
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
+	1600 4500 1600 4700
+<<<<<<< HEAD
+>>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
 Connection ~ 1600 4600
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
 Wire Wire Line
 	1400 2000 1500 2000
 Wire Wire Line
 	1500 2000 1500 2100
 Wire Wire Line
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	2300 2600 2300 3300
+Wire Wire Line
+	2100 3300 3400 3300
+=======
+	2300 2600 2300 2800
+Wire Wire Line
+	2300 2800 2300 3700
+=======
 	2300 2600 2300 3700
+<<<<<<< HEAD
+>>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
+Wire Wire Line
+	2100 3700 2300 3700
+Wire Wire Line
+	2300 3700 2900 3700
+Wire Wire Line
+	2900 3700 3400 3700
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
+	2300 2600 2300 3700
+Wire Wire Line
+	2100 3700 3400 3700
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+	2300 2600 2300 2800
+Wire Wire Line
+	2300 2800 2300 3700
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
 Wire Wire Line
 	2600 3700 2600 3600
 Connection ~ 2600 3700
@@ -982,13 +1212,49 @@ F 3 "" H 1400 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	1400 6000 1400 6600
+Connection ~ 1700 6100
+Connection ~ 1400 6100
+=======
+	1400 6400 1400 6500
+Wire Wire Line
+	1400 6500 1400 7000
+=======
 	1400 6400 1400 7000
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+	1400 6400 1400 6500
+Wire Wire Line
+	1400 6500 1400 7000
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
+	1400 6400 1400 7000
+<<<<<<< HEAD
+>>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
 Connection ~ 1700 6500
 Connection ~ 1400 6500
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
 Wire Wire Line
 	1400 7200 1400 7600
 Wire Wire Line
+<<<<<<< HEAD
+<<<<<<< HEAD
+	1400 7200 2750 7200
+=======
+	1400 7600 2200 7600
+Wire Wire Line
+	2200 7600 2750 7600
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 	1400 7600 2750 7600
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 Wire Wire Line
 	1700 6500 1700 7100
 Wire Wire Line
@@ -1117,17 +1383,63 @@ F 5 "M20-9980345" H 7050 6200 60  0001 C CNN "PartNo"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	7300 5800 7300 6100
+=======
+	7300 6000 7300 6100
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+Wire Wire Line
+	7300 6100 7300 6200
+Wire Wire Line
+	7300 6200 7300 6300
+=======
 	6800 6000 6800 6300
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+	6800 6000 6800 6100
+Wire Wire Line
+	6800 6100 6800 6200
+Wire Wire Line
+	6800 6200 6800 6300
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
+	6800 6000 6800 6300
+<<<<<<< HEAD
+>>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
 Wire Wire Line
 	6800 6100 6900 6100
 Wire Wire Line
+<<<<<<< HEAD
+	7300 6200 7200 6200
+Connection ~ 7300 6100
+Wire Wire Line
+<<<<<<< HEAD
+	6800 5900 6800 6200
+=======
+	7300 6300 7200 6300
+Connection ~ 7300 6200
+=======
 	6800 6200 6900 6200
 Connection ~ 6800 6100
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 Wire Wire Line
 	6800 6300 6900 6300
 Connection ~ 6800 6200
 Wire Wire Line
+<<<<<<< HEAD
+	6800 6100 6800 6200
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+Wire Wire Line
+	6800 6200 6800 6300
+=======
 	7300 6300 7200 6300
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 Wire Wire Line
 	7300 6100 7300 6400
 Wire Wire Line
@@ -1162,6 +1474,22 @@ Wire Wire Line
 Wire Wire Line
 	5400 3100 4800 3100
 Wire Wire Line
+<<<<<<< HEAD
+	1600 3800 1600 3900
+$Comp
+L SHUNT S301
+U 1 1 536179A3
+P 2900 4550
+F 0 "S301" H 2900 4650 60  0000 C CNN
+F 1 "SHUNT" H 2900 4450 60  0000 C CNN
+F 2 "~" H 2900 4550 60  0000 C CNN
+F 3 "~" H 2900 4550 60  0000 C CNN
+	1    2900 4550
+	1    0    0    -1  
+$EndComp
+Text Notes 3200 4500 0    60   ~ 0
+Place a shunt on ESTOP header\nby default, for folks who do not\nhave an off-board ESTOP switch
+=======
 	1600 4200 1600 4300
 $Comp
 L SHUNT S301
@@ -1183,6 +1511,10 @@ Motor Power
 Text Notes 6500 4500 0    100  ~ 0
 CRAMP3 Expansion
 Text Notes 600  3000 0    60   ~ 0
+<<<<<<< HEAD
+Series resistor on ESTOPn provides\nsome protection from ESTOP chain\n\nFETs protect against 5V from PS_ON\nor MACHINE_PWRn feeding back to\nthe 3.3V BeagleBone\n
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 Series resistor on ESTOPn provides\nsome protection from ESTOP chain\n\nFETs protect against high voltage\nfrom PS_ON or MACHINE_PWRn\nfeeding back to the 3.3V 'Bone\n
 Text Notes 2700 1700 0    100  ~ 0
 ACTIVE
@@ -1191,10 +1523,16 @@ ESTOP
 Text Notes 3400 3400 0    50   ~ 0
 Status LED
 NoConn ~ 2200 7000
+<<<<<<< HEAD
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
 Text Notes 8000 5250 0    50   ~ 0
 STEP_U
 Text Notes 8000 5350 0    50   ~ 0
 DIR_U
+<<<<<<< HEAD
+>>>>>>> 8ba487aad506868564870d32947b4e914086f93d
+=======
 $Comp
 L FET_N Q305
 U 1 1 537F5F16
@@ -1224,5 +1562,18 @@ Wire Wire Line
 Wire Wire Line
 	3200 3400 3200 3550
 Wire Wire Line
+<<<<<<< HEAD
+	2100 3700 2300 3700
+Wire Wire Line
+	2300 3700 2600 3700
+Wire Wire Line
+	2600 3700 3000 3700
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
 	2100 3700 3000 3700
+<<<<<<< HEAD
+>>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
 $EndSCHEMATC

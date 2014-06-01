@@ -1,4 +1,12 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 4/30/2014 7:56:43 PM
+=======
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/1/2014 3:14:29 PM
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/5/2014 9:45:08 AM
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 
 BeginCmp
 TimeStamp = /535D6E77;
@@ -222,6 +230,43 @@ TimeStamp = /50FC2853/53616EB5;
 Reference = F201;
 ValeurCmp = 10A;
 IdModule  = Fuse-Loose;
+<<<<<<< HEAD
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC3D20/53616FE5;
+Reference = F401;
+ValeurCmp = 10A;
+IdModule  = Fuse-Loose;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC3D20/53616FF4;
+Reference = F402;
+ValeurCmp = 15A;
+IdModule  = Fuse-Loose;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC2853/53305633;
+Reference = FH201;
+ValeurCmp = FUSE-HOLDER;
+IdModule  = FUSE-MINI-AUTO;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC3D20/533060C7;
+Reference = FH401;
+ValeurCmp = FUSE-HOLDER;
+IdModule  = FUSE-MINI-AUTO;
+EndCmp
+
+BeginCmp
+TimeStamp = /50FC3D20/53305AF0;
+Reference = FH402;
+ValeurCmp = FUSE-HOLDER;
+IdModule  = FUSE-MINI-AUTO;
+=======
 EndCmp
 
 BeginCmp
@@ -306,6 +351,7 @@ TimeStamp = /5239FA54/53319970;
 Reference = JP301;
 ValeurCmp = HEADER_2X2;
 IdModule  = pin_strip_2x2;
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
 EndCmp
 
 BeginCmp

@@ -1,4 +1,24 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+PCBNEW-LibModule-V1  4/30/2014 7:47:49 PM
+=======
+PCBNEW-LibModule-V1  5/1/2014 3:20:55 PM
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
+PCBNEW-LibModule-V1  5/4/2014 4:46:05 AM
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+PCBNEW-LibModule-V1  5/9/2014 4:43:53 PM
+>>>>>>> 4441ca3de83dc802841151e8cf94a47c2b05d854
+=======
+PCBNEW-LibModule-V1  5/11/2014 4:05:41 AM
+>>>>>>> 8ba487aad506868564870d32947b4e914086f93d
+=======
 PCBNEW-LibModule-V1  5/17/2014 5:37:12 PM
+>>>>>>> 2e9c80b828d9f7fd76680021f7e01e7a9f9818db
 # encoding utf-8
 Units mm
 $INDEX
@@ -6,9 +26,18 @@ CAPC1608x55N
 DIOM5127X229N
 FIDUCIAL-060
 Fuse-Loose
+<<<<<<< HEAD
+=======
 Keystone-3568
+<<<<<<< HEAD
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 MTH_4-40
+<<<<<<< HEAD
+>>>>>>> 4441ca3de83dc802841151e8cf94a47c2b05d854
+=======
 OSHW_Logo_5
+>>>>>>> 8ba487aad506868564870d32947b4e914086f93d
 OSRAM-LED-0603
 POLOLU
 PT_1,5-2-3,5-H
@@ -18,6 +47,9 @@ Pin_Socket_3x2
 Pin_Socket_4x2
 Pololu_Socket
 RESC1608x55N
+<<<<<<< HEAD
+Shunt
+=======
 SOIC127P1030X265-24N
 SOIC127P1032X265-20N
 SOIC127P600X175-8AN
@@ -25,6 +57,7 @@ Shunt
 pin_strip_2x2
 pin_strip_3x2
 pin_strip_4x2
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
 $EndINDEX
 $MODULE CAPC1608x55N
 Po 0 0 0 15 53615B81 00000000 ~~
@@ -111,13 +144,24 @@ Po 0 0
 $EndPAD
 $EndMODULE FIDUCIAL-060
 $MODULE Fuse-Loose
+<<<<<<< HEAD
+Po 0 0 0 15 53619491 00000000 ~~
+=======
 Po 0 0 0 15 5362ACA2 00000000 ~~
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
 Li Fuse-Loose
 Sc 0
 AR 
 Op 0 0 0
 T0 0 0 2.54 2.54 0 0.381 N I 21 N "FUSE-LOOSE"
 T1 0 2.54 1.27 1.27 0 0.254 N I 21 N "VAL**"
+<<<<<<< HEAD
+DS -8.89 -3.81 8.89 -3.81 0.254 21
+DS 8.89 -3.81 8.89 3.81 0.254 21
+DS 8.89 3.81 -8.89 3.81 0.254 21
+DS -8.89 3.81 -8.89 -3.81 0.254 21
+$EndMODULE Fuse-Loose
+=======
 DS -5.5 -2 5.5 -2 0.254 21
 DS 5.5 -2 5.5 2 0.254 21
 DS 5.5 2 -5.5 2 0.254 21
@@ -172,6 +216,9 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE Keystone-3568
+<<<<<<< HEAD
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 $MODULE MTH_4-40
 Po 0 0 0 15 536D4C0D 00000000 ~~
 Li MTH_4-40
@@ -189,6 +236,9 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $EndMODULE MTH_4-40
+<<<<<<< HEAD
+>>>>>>> 4441ca3de83dc802841151e8cf94a47c2b05d854
+=======
 $MODULE OSHW_Logo_5
 Po 0 0 0 15 4FB9109F 00000000 ~~
 Li OSHW_Logo_5
@@ -478,6 +528,7 @@ Dl -1.76911 2.42951
 Dl -1.71196 2.48031
 Dl -1.68656 2.49936
 $EndMODULE OSHW_Logo_5
+>>>>>>> 8ba487aad506868564870d32947b4e914086f93d
 $MODULE OSRAM-LED-0603
 Po 0 0 0 15 53615D92 00000000 ~~
 Li OSRAM-LED-0603
@@ -953,6 +1004,8 @@ Ne 0 ""
 Po 0.82 0
 $EndPAD
 $EndMODULE RESC1608x55N
+<<<<<<< HEAD
+=======
 $MODULE SOIC127P1030X265-24N
 Po 0 0 0 15 53622814 00000000 ~~
 Li SOIC127P1030X265-24N
@@ -1374,6 +1427,7 @@ Ne 0 ""
 Po -1.905 -2.7
 $EndPAD
 $EndMODULE SOIC127P600X175-8AN
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
 $MODULE Shunt
 Po 0 0 0 15 536199AF 00000000 ~~
 Li Shunt
@@ -1387,6 +1441,8 @@ DS 2.54 -1.27 2.54 1.27 0.254 21
 DS 2.54 1.27 -2.54 1.27 0.254 21
 DS -2.54 1.27 -2.54 -1.27 0.254 21
 $EndMODULE Shunt
+<<<<<<< HEAD
+=======
 $MODULE pin_strip_2x2
 Po 0 0 0 15 536F374A 00000000 ~~
 Li pin_strip_2x2
@@ -1576,4 +1632,5 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE pin_strip_4x2
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
 $EndLIBRARY

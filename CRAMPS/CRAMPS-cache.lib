@@ -1,4 +1,32 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+EESchema-LIBRARY Version 2.3  Date: 4/30/2014 8:07:10 PM
+=======
+EESchema-LIBRARY Version 2.3  Date: 5/2/2014 7:59:55 AM
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
+EESchema-LIBRARY Version 2.3  Date: 5/8/2014 8:05:10 AM
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+EESchema-LIBRARY Version 2.3  Date: 5/12/2014 10:49:22 AM
+>>>>>>> 8ba487aad506868564870d32947b4e914086f93d
+=======
+EESchema-LIBRARY Version 2.3  Date: 5/14/2014 3:06:36 PM
+>>>>>>> 2e9c80b828d9f7fd76680021f7e01e7a9f9818db
+=======
+EESchema-LIBRARY Version 2.3  Date: 5/23/2014 9:49:11 AM
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
 EESchema-LIBRARY Version 2.3  Date: 5/25/2014 12:10:33 AM
+<<<<<<< HEAD
+>>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
 #encoding utf-8
 #
 # +3.3V
@@ -352,6 +380,15 @@ ENDDEF
 #
 DEF FUSE-HOLDER FH 0 10 Y Y 1 F N
 F0 "FH" 0 100 40 H V C CNN
+<<<<<<< HEAD
+F1 "FUSE-HOLDER" 0 -100 40 H V C CNN
+F2 "~" 0 0 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+S -100 50 100 -50 0 1 0 N
+X ~ 1 -150 0 50 R 40 40 1 1 I
+X ~ 2 150 0 50 L 40 40 1 1 I
+=======
 F1 "FUSE-HOLDER" 0 -110 40 H V C CNN
 F2 "~" 0 0 60 H V C CNN
 F3 "~" 0 0 60 H V C CNN
@@ -361,6 +398,21 @@ X ~ 1 -150 -50 50 R 40 40 1 1 I
 X ~ 2 -150 50 50 R 40 40 1 1 I
 X ~ 3 150 -50 50 L 40 40 1 1 I
 X ~ 4 150 50 50 L 40 40 1 1 I
+ENDDRAW
+ENDDEF
+#
+# FUSE-LOOSE
+#
+DEF FUSE-LOOSE F 0 10 Y Y 1 F N
+F0 "F" 0 100 40 H V C CNN
+F1 "FUSE-LOOSE" 0 -100 40 H V C CNN
+F2 "~" 0 0 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+A -50 0 50 1 1799 0 1 0 N 0 0 -100 0
+A 50 0 50 -1799 -1 0 1 0 N 0 0 100 0
+S -100 50 100 -50 0 1 0 N
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
 ENDDRAW
 ENDDEF
 #

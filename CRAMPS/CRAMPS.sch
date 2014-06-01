@@ -45,8 +45,38 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Date "1 may 2014"
+=======
+Date "2 may 2014"
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+Rev "v1.0"
+=======
+Date "8 may 2014"
+Rev "v2.1"
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+Date "12 may 2014"
+=======
+Date "14 may 2014"
+>>>>>>> 2e9c80b828d9f7fd76680021f7e01e7a9f9818db
+=======
+Date "23 may 2014"
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
 Date "25 may 2014"
+<<<<<<< HEAD
+>>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
 Rev "v2.2"
+>>>>>>> 8ba487aad506868564870d32947b4e914086f93d
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
 Comment2 "Derived from RAMPS-FD by Bob Cousins"

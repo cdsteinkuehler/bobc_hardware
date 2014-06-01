@@ -1,7 +1,39 @@
 Schematic Updates:
+<<<<<<< HEAD
+<<<<<<< HEAD
+  Fix component attributes so all parts have manufacturer part numbers
+  Fix component attributes so VALUE field does not separate parts of the same type
+    Using the Value field to name connectors makes working with the BOM *PAINFUL*
+  Re-annotate to get sane reference designators
+x Add fuses and part numbers to the BOM, not just the fuse sockets
+x Add shorting jumpers to BOM? (used for setting microsteps, bypassing estop, etc)
+x   TE 382811-8
+  General cleanup & review all text and notes
+  Generate schematic for CRAMP3 (3-channel add-on board)
+=======
+x Fix component attributes so all parts have manufacturer part numbers
+x Fix component attributes so VALUE field does not separate parts of the same type
+x   Using the Value field to name connectors makes working with the BOM *PAINFUL*
+x Re-annotate to get sane reference designators
+x Add fuses and part numbers to the BOM, not just the fuse sockets
+x Add shorting jumpers to BOM? (used for setting microsteps, bypassing estop, etc)
+x   TE 382811-8
+x General cleanup & review all text and notes
+x Generate schematic for CRAMP3 (3-channel add-on board)
+  Review choice of FETs and clamping diodes?
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 x Change 2N7002 value to 2N7002K to avoid confusion
 x   Manufacturer part number is correct
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+  Fix inverted ESTOP LED
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
 x Fix inverted ESTOP LED
+>>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
 
 PCB Updates:
 x Label headers

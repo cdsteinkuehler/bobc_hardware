@@ -45,8 +45,38 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 4 5
 Title "CRAMPS (Cape-RAMPS for BeagleBone)"
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Date "1 may 2014"
+=======
+Date "2 may 2014"
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+Rev "v1.0"
+=======
+Date "8 may 2014"
+Rev "v2.1"
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
+=======
+Date "12 may 2014"
+=======
+Date "14 may 2014"
+>>>>>>> 2e9c80b828d9f7fd76680021f7e01e7a9f9818db
+=======
+Date "23 may 2014"
+>>>>>>> 0a4a51786b250c2cff8ca41a424639a20eec7ae1
+=======
 Date "25 may 2014"
+<<<<<<< HEAD
+>>>>>>> 61a0daad72d5b17c6fbf31be0463f16e1147453a
+=======
+>>>>>>> b5fbd97fc77a321ef99d50d1b2701a867754a1e3
+>>>>>>> 1e90bc99a875d9ca41e8b7a7efa8e89ac9bf0aeb
 Rev "v2.2"
+>>>>>>> 8ba487aad506868564870d32947b4e914086f93d
 Comp ""
 Comment1 "Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"
 Comment2 "Derived from RAMPS-FD by Bob Cousins"
@@ -56,6 +86,27 @@ $EndDescr
 $Comp
 L DIODE D401
 U 1 1 51A9D334
+<<<<<<< HEAD
+<<<<<<< HEAD
+P 4100 2400
+F 0 "D401" H 4100 2500 40  0000 C CNN
+F 1 "ES1F" H 4100 2300 40  0000 C CNN
+F 2 "" H 4100 2400 60  0001 C CNN
+F 3 "" H 4100 2400 60  0001 C CNN
+F 4 "Fairchild" H 7250 6450 60  0001 C CNN "Mfg"
+F 5 "ES1F" H 7250 6450 60  0001 C CNN "PartNo"
+	1    4100 2400
+=======
+P 3000 2400
+F 0 "D401" H 3000 2500 40  0000 C CNN
+F 1 "ES1F" H 3000 2300 40  0000 C CNN
+F 2 "" H 3000 2400 60  0001 C CNN
+F 3 "" H 3000 2400 60  0001 C CNN
+F 4 "Fairchild" H 6150 6450 60  0001 C CNN "Mfg"
+F 5 "ES1F" H 6150 6450 60  0001 C CNN "PartNo"
+	1    3000 2400
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 P 3200 2400
 F 0 "D401" H 3200 2500 40  0000 C CNN
 F 1 "SS14" H 3200 2300 40  0000 C CNN
@@ -64,11 +115,33 @@ F 3 "" H 3200 2400 60  0001 C CNN
 F 4 "Vishay" H 6350 6450 60  0001 C CNN "Mfg"
 F 5 "SS14-E3/61T" H 6350 6450 60  0001 C CNN "PartNo"
 	1    3200 2400
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 	0    -1   -1   0   
 $EndComp
 $Comp
 L MOSFET_N_RMC Q401
 U 1 1 510E6DBE
+<<<<<<< HEAD
+<<<<<<< HEAD
+P 4050 3050
+F 0 "Q401" H 3925 3300 60  0000 C CNN
+F 1 "IRLB8743PBF" H 4450 2950 60  0000 C CNN
+F 2 "" H 4050 3050 60  0001 C CNN
+F 3 "" H 4050 3050 60  0001 C CNN
+F 4 "International Rectifier" H 7250 6250 60  0001 C CNN "Mfg"
+F 5 "IRLB8743PBF" H 7250 6250 60  0001 C CNN "PartNo"
+	1    4050 3050
+=======
+P 2950 3050
+F 0 "Q401" H 2825 3300 60  0000 C CNN
+F 1 "IRLB8743PBF" H 3350 2950 60  0000 C CNN
+F 2 "" H 2950 3050 60  0001 C CNN
+F 3 "" H 2950 3050 60  0001 C CNN
+F 4 "International Rectifier" H 6150 6250 60  0001 C CNN "Mfg"
+F 5 "IRLB8743PBF" H 6150 6250 60  0001 C CNN "PartNo"
+	1    2950 3050
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 P 3150 3150
 F 0 "Q401" H 3025 3400 60  0000 C CNN
 F 1 "IRLB8743PBF" H 3550 3050 60  0000 C CNN
@@ -77,6 +150,7 @@ F 3 "" H 3150 3150 60  0001 C CNN
 F 4 "International Rectifier" H 6350 6350 60  0001 C CNN "Mfg"
 F 5 "IRLB8743PBF" H 6350 6350 60  0001 C CNN "PartNo"
 	1    3150 3150
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 	1    0    0    -1  
 $EndComp
 Text Notes 5350 900  0    50   ~ 0
@@ -86,6 +160,33 @@ MOSFET Outputs
 $Comp
 L LED LD401
 U 1 1 510478C6
+<<<<<<< HEAD
+<<<<<<< HEAD
+P 3800 2500
+F 0 "LD401" V 3725 2500 50  0000 C CNN
+F 1 "LED RED" V 3895 2500 50  0000 C CNN
+F 2 "" H 3800 2500 60  0001 C CNN
+F 3 "" H 3800 2500 60  0001 C CNN
+F 4 "Osram" H 7550 6350 60  0001 C CNN "Mfg"
+F 5 "LH R974-LP-1" H 7550 6350 60  0001 C CNN "PartNo"
+	1    3800 2500
+	1    0    0    -1  
+$EndComp
+Text GLabel 3500 3100 0    60   Input ~ 0
+=======
+P 2700 2500
+F 0 "LD401" V 2625 2500 50  0000 C CNN
+F 1 "Red" V 2795 2500 50  0000 C CNN
+F 2 "" H 2700 2500 60  0001 C CNN
+F 3 "" H 2700 2500 60  0001 C CNN
+F 4 "Osram" H 6450 6350 60  0001 C CNN "Mfg"
+F 5 "LH R974-LP-1" H 6450 6350 60  0001 C CNN "PartNo"
+	1    2700 2500
+	1    0    0    -1  
+$EndComp
+Text GLabel 2400 3100 0    60   Input ~ 0
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 P 2900 2500
 F 0 "LD401" V 2825 2500 50  0000 C CNN
 F 1 "Yellow" V 2995 2500 50  0000 C CNN
@@ -97,12 +198,32 @@ F 5 "LY Q976-P1S2-36" H 6650 6350 60  0001 C CNN "PartNo"
 	1    0    0    -1  
 $EndComp
 Text GLabel 2400 3200 0    60   Input ~ 0
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 FET1_BUF
 Text Notes 3450 2050 3    50   ~ 0
 Or similar
 $Comp
 L HEADER_2 P403
 U 1 1 5329974F
+<<<<<<< HEAD
+<<<<<<< HEAD
+P 4600 2400
+F 0 "P404" H 4650 2550 60  0000 C CNN
+F 1 "Bed" H 4650 2225 60  0000 C CNN
+F 2 "" H 4600 2400 60  0000 C CNN
+F 3 "" H 4600 2400 60  0000 C CNN
+	1    4600 2400
+=======
+P 3500 2350
+F 0 "P403" H 3550 2500 60  0000 C CNN
+F 1 "PT_2,5-2-5,0-H" H 3550 2175 60  0001 C CNN
+F 2 "" H 3500 2350 60  0000 C CNN
+F 3 "" H 3500 2350 60  0000 C CNN
+F 4 "Phoenix" H 1600 2050 60  0001 C CNN "Mfg"
+F 5 "1935776" H 1600 2050 60  0001 C CNN "PartNo"
+	1    3500 2350
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 P 3700 2350
 F 0 "P403" H 3750 2500 60  0000 C CNN
 F 1 "PT_2,5-2-5,0-H" H 3750 2175 60  0001 C CNN
@@ -111,6 +232,7 @@ F 3 "" H 3700 2350 60  0000 C CNN
 F 4 "Phoenix" H 1800 2050 60  0001 C CNN "Mfg"
 F 5 "1935776" H 1800 2050 60  0001 C CNN "PartNo"
 	1    3700 2350
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -406,7 +528,15 @@ F 5 "DMN2075U-7" H 7500 3100 60  0001 C CNN "PartNo"
 	1    8900 3100
 	1    0    0    -1  
 $EndComp
+<<<<<<< HEAD
+<<<<<<< HEAD
+Text Label 4100 2700 0    60   ~ 0
+=======
+Text Label 3000 2700 0    60   ~ 0
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 Text Label 3200 2700 0    60   ~ 0
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 Bed_HTR
 Text Label 7450 5100 0    60   ~ 0
 E2_HTR
@@ -436,6 +566,27 @@ $EndComp
 $Comp
 L R R402
 U 1 1 532B3571
+<<<<<<< HEAD
+<<<<<<< HEAD
+P 3800 2200
+F 0 "R402" V 3750 2200 50  0000 C CNN
+F 1 "2K7" V 3870 2200 50  0000 C CNN
+F 2 "" H 3800 2200 60  0000 C CNN
+F 3 "" H 3800 2200 60  0000 C CNN
+	1    3800 2200
+=======
+P 2700 2200
+F 0 "R402" V 2650 2200 50  0000 C CNN
+F 1 "2K7" V 2770 2200 50  0000 C CNN
+F 2 "" H 2700 2200 60  0000 C CNN
+F 3 "" H 2700 2200 60  0000 C CNN
+F 4 "Stackpole" H 5350 5350 60  0001 C CNN "Mfg"
+F 5 "RMCF0603FT2K70" H 5350 5350 60  0001 C CNN "PartNo"
+F 6 "KOA" H 5350 5350 60  0001 C CNN "AltMfg"
+F 7 "RK73H1JTTD2701F" H 5350 5350 60  0001 C CNN "AltPartNo"
+	1    2700 2200
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 P 2900 2200
 F 0 "R402" V 2850 2200 50  0000 C CNN
 F 1 "2K7" V 2970 2200 50  0000 C CNN
@@ -446,6 +597,7 @@ F 5 "RMCF0603FT2K70" H 5550 5350 60  0001 C CNN "PartNo"
 F 6 "KOA" H 5550 5350 60  0001 C CNN "AltMfg"
 F 7 "RK73H1JTTD2701F" H 5550 5350 60  0001 C CNN "AltPartNo"
 	1    2900 2200
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -466,6 +618,27 @@ $EndComp
 $Comp
 L R R401
 U 1 1 532B38D7
+<<<<<<< HEAD
+<<<<<<< HEAD
+P 3650 3100
+F 0 "R401" V 3600 3100 50  0000 C CNN
+F 1 "220R" V 3720 3100 50  0000 C CNN
+F 2 "" H 3650 3100 60  0000 C CNN
+F 3 "" H 3650 3100 60  0000 C CNN
+	1    3650 3100
+=======
+P 2550 3100
+F 0 "R401" V 2500 3100 50  0000 C CNN
+F 1 "220R" V 2620 3100 50  0000 C CNN
+F 2 "" H 2550 3100 60  0000 C CNN
+F 3 "" H 2550 3100 60  0000 C CNN
+F 4 "Stackpole" H 5350 5350 60  0001 C CNN "Mfg"
+F 5 "RMCF0603FT220R" H 5350 5350 60  0001 C CNN "PartNo"
+F 6 "KOA" H 5350 5350 60  0001 C CNN "AltMfg"
+F 7 "RK73H1JTTD2200F" H 5350 5350 60  0001 C CNN "AltPartNo"
+	1    2550 3100
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 P 2600 3200
 F 0 "R401" V 2550 3200 50  0000 C CNN
 F 1 "220R" V 2670 3200 50  0000 C CNN
@@ -476,6 +649,7 @@ F 5 "RMCF0603FT220R" H 5400 5450 60  0001 C CNN "PartNo"
 F 6 "KOA" H 5400 5450 60  0001 C CNN "AltMfg"
 F 7 "RK73H1JTTD2200F" H 5400 5450 60  0001 C CNN "AltPartNo"
 	1    2600 3200
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 	0    1    1    0   
 $EndComp
 $Comp
@@ -603,8 +777,31 @@ Bed_Pwr
 Text Notes 1700 2400 2    100  ~ 0
 Bed \nHeater Power\n12-24V, 15A
 $Comp
+<<<<<<< HEAD
+L FUSE-HOLDER FH402
+U 1 1 53305AF0
+P 3350 2000
+F 0 "FH402" H 3350 2100 40  0000 C CNN
+F 1 "FUSE-HOLDER" H 3350 1900 40  0000 C CNN
+F 2 "" H 3350 2000 60  0001 C CNN
+F 3 "" H 3350 2000 60  0001 C CNN
+F 4 "Littlefuse" H 3750 6800 60  0001 C CNN "Mfg"
+F 5 "01530008Z" H 3750 6800 60  0001 C CNN "PartNo"
+	1    3350 2000
+=======
 L FUSE-HOLDER FH401
 U 1 1 53305AF0
+<<<<<<< HEAD
+P 2250 2050
+F 0 "FH401" H 2250 2150 40  0000 C CNN
+F 1 "FUSE-HOLDER" H 2250 1940 40  0000 C CNN
+F 2 "" H 2250 2050 60  0001 C CNN
+F 3 "" H 2250 2050 60  0001 C CNN
+F 4 "Keystone" H 2650 6850 60  0001 C CNN "Mfg"
+F 5 "3568" H 2650 6850 60  0001 C CNN "PartNo"
+	1    2250 2050
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 P 2450 2050
 F 0 "FH401" H 2450 2150 40  0000 C CNN
 F 1 "FUSE-HOLDER" H 2450 1940 40  0000 C CNN
@@ -613,6 +810,7 @@ F 3 "" H 2450 2050 60  0001 C CNN
 F 4 "Keystone" H 2850 6850 60  0001 C CNN "Mfg"
 F 5 "3568" H 2850 6850 60  0001 C CNN "PartNo"
 	1    2450 2050
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -644,8 +842,31 @@ F 5 "UCD1V101MCL6GS" H 2900 5050 60  0001 C CNN "PartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
+<<<<<<< HEAD
+L FUSE-HOLDER FH401
+U 1 1 533060C7
+P 3300 4350
+F 0 "FH401" H 3300 4450 40  0000 C CNN
+F 1 "FUSE-HOLDER" H 3300 4250 40  0000 C CNN
+F 2 "" H 3300 4350 60  0001 C CNN
+F 3 "" H 3300 4350 60  0001 C CNN
+F 4 "Littlefuse" H 3700 7300 60  0001 C CNN "Mfg"
+F 5 "01530008Z" H 3700 7300 60  0001 C CNN "PartNo"
+	1    3300 4350
+=======
 L FUSE-HOLDER FH402
 U 1 1 533060C7
+<<<<<<< HEAD
+P 2250 4450
+F 0 "FH402" H 2250 4550 40  0000 C CNN
+F 1 "FUSE-HOLDER" H 2250 4350 40  0000 C CNN
+F 2 "" H 2250 4450 60  0001 C CNN
+F 3 "" H 2250 4450 60  0001 C CNN
+F 4 "Keystone" H 2650 7400 60  0001 C CNN "Mfg"
+F 5 "3568" H 2650 7400 60  0001 C CNN "PartNo"
+	1    2250 4450
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 P 2450 4450
 F 0 "FH402" H 2450 4550 40  0000 C CNN
 F 1 "FUSE-HOLDER" H 2450 4350 40  0000 C CNN
@@ -654,6 +875,7 @@ F 3 "" H 2450 4450 60  0001 C CNN
 F 4 "Keystone" H 2850 7400 60  0001 C CNN "Mfg"
 F 5 "3568" H 2850 7400 60  0001 C CNN "PartNo"
 	1    2450 4450
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -696,12 +918,30 @@ $EndComp
 $Comp
 L GND #PWR067
 U 1 1 53359AC5
+<<<<<<< HEAD
+<<<<<<< HEAD
+P 4100 3400
+F 0 "#PWR066" H 4100 3400 30  0001 C CNN
+F 1 "GND" H 4100 3330 30  0001 C CNN
+F 2 "" H 4100 3400 60  0001 C CNN
+F 3 "" H 4100 3400 60  0001 C CNN
+	1    4100 3400
+=======
+P 3000 3400
+F 0 "#PWR066" H 3000 3400 30  0001 C CNN
+F 1 "GND" H 3000 3330 30  0001 C CNN
+F 2 "" H 3000 3400 60  0001 C CNN
+F 3 "" H 3000 3400 60  0001 C CNN
+	1    3000 3400
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 P 3200 3500
 F 0 "#PWR067" H 3200 3500 30  0001 C CNN
 F 1 "GND" H 3200 3430 30  0001 C CNN
 F 2 "" H 3200 3500 60  0001 C CNN
 F 3 "" H 3200 3500 60  0001 C CNN
 	1    3200 3500
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -728,6 +968,45 @@ F 3 "" H 5900 1600 60  0001 C CNN
 $EndComp
 Text GLabel 6000 1700 2    50   UnSpc ~ 0
 VDD_5V
+<<<<<<< HEAD
+<<<<<<< HEAD
+Connection ~ 4100 2700
+Wire Wire Line
+	3800 2700 4500 2700
+Wire Wire Line
+	4100 2000 4100 2300
+Wire Wire Line
+	4500 2000 4500 2350
+Wire Wire Line
+	3800 2300 3800 2400
+Wire Wire Line
+	4100 3250 4100 3400
+Wire Wire Line
+	3750 3100 3800 3100
+Wire Wire Line
+	3800 2000 3800 2100
+Wire Wire Line
+	3500 2000 4500 2000
+Connection ~ 4100 2000
+Connection ~ 8250 5050
+Wire Wire Line
+	7950 5050 8650 5050
+=======
+Connection ~ 3000 2700
+Wire Wire Line
+	2700 2700 3400 2700
+Wire Wire Line
+	3000 2000 3000 2300
+Wire Wire Line
+	3400 2000 3400 2300
+Wire Wire Line
+	2700 2300 2700 2400
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+Wire Wire Line
+	3000 3250 3000 3400
+Wire Wire Line
+	2650 3100 2700 3100
+=======
 $Comp
 L HEADER_3 P404
 U 1 1 535F1C4B
@@ -805,6 +1084,7 @@ F 5 "Do Not Populate" H 3150 10550 60  0001 C CNN "PartNo"
 	1    7000 5300
 	-1   0    0    -1  
 $EndComp
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 Wire Wire Line
 	5900 2200 5800 2200
 Connection ~ 3200 2700
@@ -813,7 +1093,19 @@ Wire Wire Line
 Wire Wire Line
 	3200 2000 3200 2300
 Wire Wire Line
+<<<<<<< HEAD
+<<<<<<< HEAD
+	8250 4800 8250 5150
+Connection ~ 5250 5050
+Wire Wire Line
+	4950 5050 5650 5050
+Wire Wire Line
+	5250 4800 5250 5150
+=======
+	7500 4400 7500 4700
+=======
 	3600 2000 3600 2300
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 Wire Wire Line
 	2900 2300 2900 2400
 Wire Wire Line
@@ -825,7 +1117,13 @@ Wire Wire Line
 Connection ~ 3200 2000
 Connection ~ 7400 5100
 Wire Wire Line
+<<<<<<< HEAD
+	7100 4850 7100 5200
+Connection ~ 4100 5100
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 	7000 5100 7800 5100
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 Wire Wire Line
 	7800 4400 7800 4700
 Wire Wire Line
@@ -840,15 +1138,29 @@ Wire Wire Line
 Wire Wire Line
 	4400 4850 4400 5300
 Wire Wire Line
+<<<<<<< HEAD
+<<<<<<< HEAD
+	6450 5050 7150 5050
+Wire Wire Line
+	6750 4800 6750 5150
+=======
+	3500 5500 3550 5500
+=======
 	4400 4400 4400 4700
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 Wire Wire Line
 	4800 4400 4800 4700
 Wire Wire Line
 	4100 4700 4100 4800
 Wire Wire Line
+<<<<<<< HEAD
+	5600 4850 5600 5200
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 	4100 4400 4100 4500
 Connection ~ 4400 4400
 Connection ~ 5900 5100
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 Wire Wire Line
 	5500 5100 6300 5100
 Wire Wire Line
@@ -862,9 +1174,13 @@ Wire Wire Line
 Connection ~ 5900 4400
 Connection ~ 7100 2700
 Wire Wire Line
+<<<<<<< HEAD
+	6850 2700 7550 2700
+=======
 	6800 2700 7500 2700
 Wire Wire Line
 	7500 2000 7500 2300
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
 Wire Wire Line
 	6800 2300 6800 2400
 Wire Wire Line
@@ -875,8 +1191,20 @@ Wire Wire Line
 Wire Wire Line
 	7100 2450 7100 2800
 Wire Wire Line
+<<<<<<< HEAD
+<<<<<<< HEAD
+	7150 2450 7150 2850
+Connection ~ 8550 2700
+Wire Wire Line
+	8250 2700 8950 2700
+Wire Wire Line
+	8550 2450 8550 2850
+=======
+	8200 2700 8900 2700
+=======
 	7500 2400 7500 2950
 Connection ~ 8600 2700
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 Wire Wire Line
 	8300 2700 9000 2700
 Wire Wire Line
@@ -886,7 +1214,12 @@ Wire Wire Line
 Wire Wire Line
 	8600 2000 8600 2300
 Wire Wire Line
+<<<<<<< HEAD
+	8250 3000 8300 3000
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 	9000 2000 9000 2300
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 Wire Wire Line
 	8300 2300 8300 2400
 Wire Wire Line
@@ -901,11 +1234,31 @@ Wire Wire Line
 Wire Wire Line
 	7800 5100 7800 4800
 Wire Wire Line
+<<<<<<< HEAD
+<<<<<<< HEAD
+	3800 2700 3800 2600
+Wire Wire Line
+	4100 2450 4100 2800
+Wire Wire Line
+	4500 2700 4500 2450
+=======
+	6800 5100 6800 5000
+Wire Wire Line
+	7500 2700 7500 2400
+Wire Wire Line
+	6800 2700 6800 2600
+Wire Wire Line
+	8200 2700 8200 2600
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+Wire Wire Line
+	8900 2700 8900 2400
+=======
 	7100 5100 7100 5000
 Wire Wire Line
 	6800 2700 6800 2600
 Wire Wire Line
 	8300 2700 8300 2600
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 Wire Wire Line
 	6300 5100 6300 4800
 Wire Wire Line
@@ -934,7 +1287,51 @@ Connection ~ 5600 4400
 Connection ~ 4800 4400
 Connection ~ 6300 4400
 Wire Wire Line
+<<<<<<< HEAD
+<<<<<<< HEAD
+	2850 3300 2850 2100
+Wire Wire Line
+	3500 3100 3550 3100
+Wire Wire Line
+	3000 4450 2900 4450
+Wire Notes Line
+	2800 4750 2900 4750
+Wire Notes Line
+	2900 4750 2900 5400
+Wire Notes Line
+	2900 5400 2800 5400
+Wire Wire Line
+	2900 4350 3150 4350
+Wire Wire Line
+	3000 5600 8250 5600
+Connection ~ 6750 5600
+Connection ~ 5250 5600
+Connection ~ 4950 4350
+Connection ~ 6450 4350
+Connection ~ 5650 4350
+Connection ~ 7150 4350
+Wire Wire Line
+	3000 5600 3000 4450
+Wire Wire Line
+	3550 4900 3550 4350
+Connection ~ 3550 4350
+Wire Wire Line
+	3550 5100 3550 5600
+Connection ~ 3550 5600
+Wire Wire Line
+	3950 5200 3950 5600
+Connection ~ 3950 5600
+Wire Wire Line
+	3950 4350 3950 4800
+Connection ~ 3950 4350
+Connection ~ 6850 2000
+Connection ~ 8250 2000
+Connection ~ 7550 2000
+=======
+	1800 5650 1800 4500
+=======
 	1800 5800 1800 4500
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 Wire Wire Line
 	2900 5250 2900 5800
 Connection ~ 2900 5800
@@ -944,21 +1341,49 @@ Connection ~ 2900 4400
 Connection ~ 6800 2000
 Connection ~ 8300 2000
 Connection ~ 7500 2000
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
 Wire Wire Line
 	6000 3300 6000 2100
 Connection ~ 7500 3300
 Wire Wire Line
 	5900 5750 5900 5900
 Wire Wire Line
+<<<<<<< HEAD
+<<<<<<< HEAD
+	7150 3150 7150 3300
+=======
+	8500 3200 8500 3150
+Wire Wire Line
+	7100 3150 7100 3300
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 	9000 3300 9000 3250
 Wire Wire Line
 	7500 3250 7500 3400
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 Wire Wire Line
 	5900 1700 6000 1700
 Wire Wire Line
 	5900 1600 5900 2200
 Connection ~ 5900 1700
+<<<<<<< HEAD
+<<<<<<< HEAD
+Connection ~ 8250 4350
+Connection ~ 7950 4350
+Wire Wire Line
+	7950 4350 7950 4450
+Wire Wire Line
+	3450 4350 8650 4350
+Wire Wire Line
+	6000 2100 5800 2100
+Wire Wire Line
+	6000 3200 8550 3200
+Wire Wire Line
+	5800 2000 8950 2000
+=======
+=======
 Connection ~ 7400 4400
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 Connection ~ 7100 4400
 Wire Wire Line
 	7100 4400 7100 4500
@@ -1024,7 +1449,12 @@ Wire Wire Line
 	7000 5400 7000 5600
 Connection ~ 7000 5600
 Wire Wire Line
+<<<<<<< HEAD
+	5800 2000 8900 2000
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 	6600 5600 6700 5600
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 $Comp
 L C C402
 U 1 1 5367A681
@@ -1039,7 +1469,40 @@ F 5 "Do Not Populate" H -1050 8150 60  0001 C CNN "PartNo"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
+<<<<<<< HEAD
+<<<<<<< HEAD
+	5900 2200 5800 2200
+$Comp
+L FUSE-LOOSE F401
+U 1 1 53616FE5
+P 3300 4000
+F 0 "F401" H 3300 4100 40  0000 C CNN
+F 1 "10A" H 3300 3900 40  0000 C CNN
+F 2 "~" H 3300 4000 60  0000 C CNN
+F 3 "~" H 3300 4000 60  0000 C CNN
+	1    3300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L FUSE-LOOSE F402
+U 1 1 53616FF4
+P 3350 1600
+F 0 "F402" H 3350 1700 40  0000 C CNN
+F 1 "15A" H 3350 1500 40  0000 C CNN
+F 2 "~" H 3350 1600 60  0000 C CNN
+F 3 "~" H 3350 1600 60  0000 C CNN
+	1    3350 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3300 4100 3300
+Connection ~ 4100 3300
+=======
+	1800 3300 3000 3300
+Connection ~ 3000 3300
+=======
 	2400 3200 2500 3200
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 Wire Wire Line
 	2700 3200 2900 3200
 Wire Wire Line
@@ -1093,5 +1556,17 @@ Connection ~ 8600 3100
 Wire Wire Line
 	6700 3100 6800 3100
 Wire Wire Line
+<<<<<<< HEAD
+	2000 2100 2100 2100
+Connection ~ 2000 2000
+Text Notes 1700 4800 2    100  ~ 0
+Extruder\nHeater Power\n12-24V, 10A
+Text Notes 5800 2500 2    100  ~ 0
+Auxillary\nLED/Fan Power\n5-12V, 2A\n\nOptional\nBBB Power\n5V, 2A
+Text Notes 5800 3600 2    60   ~ 0
+BeagleBone can be powerd via\nnative barrel jack or with the\nAux. power connector above
+>>>>>>> 789f9bbf16be7b2f3854c62af1a2e5859d3b3138
+=======
 	8200 3100 8300 3100
+>>>>>>> 30cd7d42b1cfd3a09e12387fd5c59cbf3067d046
 $EndSCHEMATC
