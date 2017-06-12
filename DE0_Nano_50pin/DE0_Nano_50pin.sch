@@ -43,7 +43,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "DE0_Nano_50pin"
-Date "9 aug 2016"
+Date "11 jun 2017"
 Rev "v1.0"
 Comp ""
 Comment1 ""
@@ -2570,149 +2570,149 @@ Text Label 1800 9500 0    60   ~ 0
 XIO70
 Text Label 1800 9600 0    60   ~ 0
 XIO71
-Text Label 10700 1100 0    60   ~ 0
+Text Label 4100 800  0    60   ~ 0
 XIO0
-Text Label 10700 1200 0    60   ~ 0
+Text Label 4100 900  0    60   ~ 0
 XIO1
-Text Label 10700 1300 0    60   ~ 0
+Text Label 4100 1000 0    60   ~ 0
 XIO2
-Text Label 10700 1400 0    60   ~ 0
+Text Label 4100 1100 0    60   ~ 0
 XIO3
-Text Label 10700 1500 0    60   ~ 0
+Text Label 4100 1200 0    60   ~ 0
 XIO4
-Text Label 10700 1600 0    60   ~ 0
+Text Label 4100 1300 0    60   ~ 0
 XIO5
-Text Label 10700 1700 0    60   ~ 0
+Text Label 4100 1500 0    60   ~ 0
 XIO6
-Text Label 10700 1800 0    60   ~ 0
+Text Label 4100 1600 0    60   ~ 0
 XIO7
-Text Label 10700 1900 0    60   ~ 0
+Text Label 4100 1700 0    60   ~ 0
 XIO8
-Text Label 10700 2000 0    60   ~ 0
+Text Label 4100 1800 0    60   ~ 0
 XIO9
-Text Label 10700 2100 0    60   ~ 0
+Text Label 4100 1900 0    60   ~ 0
 XIO10
-Text Label 10700 2200 0    60   ~ 0
+Text Label 4100 2000 0    60   ~ 0
 XIO11
-Text Label 10700 2300 0    60   ~ 0
+Text Label 4100 2100 0    60   ~ 0
 XIO12
-Text Label 10700 2400 0    60   ~ 0
+Text Label 4100 2200 0    60   ~ 0
 XIO13
-Text Label 10700 2500 0    60   ~ 0
+Text Label 4100 2400 0    60   ~ 0
 XIO14
-Text Label 10700 2600 0    60   ~ 0
+Text Label 4100 2600 0    60   ~ 0
 XIO15
-Text Label 10700 2700 0    60   ~ 0
+Text Label 4100 2700 0    60   ~ 0
 XIO16
-Text Label 10700 2800 0    60   ~ 0
+Text Label 4100 2800 0    60   ~ 0
 XIO17
-Text Label 10700 2900 0    60   ~ 0
+Text Label 4100 2900 0    60   ~ 0
 XIO18
-Text Label 10700 3000 0    60   ~ 0
+Text Label 4100 3000 0    60   ~ 0
 XIO19
-Text Label 10700 3100 0    60   ~ 0
+Text Label 4100 3100 0    60   ~ 0
 XIO20
-Text Label 10700 3200 0    60   ~ 0
+Text Label 4100 3200 0    60   ~ 0
 XIO21
-Text Label 10700 3300 0    60   ~ 0
+Text Label 4100 3300 0    60   ~ 0
 XIO22
-Text Label 10700 3400 0    60   ~ 0
+Text Label 4100 3400 0    60   ~ 0
 XIO23
-Text Label 10700 3500 0    60   ~ 0
+Text Label 4100 4100 0    60   ~ 0
 XIO24
-Text Label 10700 3600 0    60   ~ 0
+Text Label 4100 4200 0    60   ~ 0
 XIO25
-Text Label 10700 3700 0    60   ~ 0
+Text Label 4100 4300 0    60   ~ 0
 XIO26
-Text Label 10700 3800 0    60   ~ 0
+Text Label 4100 4400 0    60   ~ 0
 XIO27
-Text Label 10700 3900 0    60   ~ 0
+Text Label 4100 4500 0    60   ~ 0
 XIO28
-Text Label 10700 4000 0    60   ~ 0
+Text Label 4100 4600 0    60   ~ 0
 XIO29
-Text Label 10700 4100 0    60   ~ 0
+Text Label 4100 4800 0    60   ~ 0
 XIO30
-Text Label 10700 4200 0    60   ~ 0
+Text Label 4100 4900 0    60   ~ 0
 XIO31
-Text Label 10700 4300 0    60   ~ 0
+Text Label 4100 5000 0    60   ~ 0
 XIO32
-Text Label 10700 4400 0    60   ~ 0
+Text Label 4100 5100 0    60   ~ 0
 XIO33
-Text Label 10700 4500 0    60   ~ 0
+Text Label 4100 5200 0    60   ~ 0
 XIO34
-Text Label 10700 4600 0    60   ~ 0
+Text Label 4100 5300 0    60   ~ 0
 XIO35
-Text Label 10700 4700 0    60   ~ 0
+Text Label 4100 5400 0    60   ~ 0
 XIO36
-Text Label 10700 4800 0    60   ~ 0
+Text Label 4100 5500 0    60   ~ 0
 XIO37
-Text Label 10700 4900 0    60   ~ 0
+Text Label 4100 5700 0    60   ~ 0
 XIO38
-Text Label 10700 5000 0    60   ~ 0
+Text Label 4100 5900 0    60   ~ 0
 XIO39
-Text Label 10700 5100 0    60   ~ 0
+Text Label 4100 6000 0    60   ~ 0
 XIO40
-Text Label 10700 5200 0    60   ~ 0
+Text Label 4100 6100 0    60   ~ 0
 XIO41
-Text Label 10700 5300 0    60   ~ 0
+Text Label 4100 6200 0    60   ~ 0
 XIO42
-Text Label 10700 5400 0    60   ~ 0
+Text Label 4100 6300 0    60   ~ 0
 XIO43
-Text Label 10700 5500 0    60   ~ 0
+Text Label 4100 6400 0    60   ~ 0
 XIO44
-Text Label 10700 5600 0    60   ~ 0
+Text Label 4100 6500 0    60   ~ 0
 XIO45
-Text Label 10700 5700 0    60   ~ 0
+Text Label 4100 6600 0    60   ~ 0
 XIO46
-Text Label 10700 5800 0    60   ~ 0
+Text Label 4100 6700 0    60   ~ 0
 XIO47
-Text Label 10700 5900 0    60   ~ 0
+Text Label 4100 7400 0    60   ~ 0
 XIO48
-Text Label 10700 6000 0    60   ~ 0
+Text Label 4100 7500 0    60   ~ 0
 XIO49
-Text Label 10700 6100 0    60   ~ 0
+Text Label 4100 7600 0    60   ~ 0
 XIO50
-Text Label 10700 6200 0    60   ~ 0
+Text Label 4100 7700 0    60   ~ 0
 XIO51
-Text Label 10700 6300 0    60   ~ 0
+Text Label 4100 7800 0    60   ~ 0
 XIO52
-Text Label 10700 6400 0    60   ~ 0
+Text Label 4100 7900 0    60   ~ 0
 XIO53
-Text Label 10700 6500 0    60   ~ 0
+Text Label 4100 8100 0    60   ~ 0
 XIO54
-Text Label 10700 6600 0    60   ~ 0
+Text Label 4100 8200 0    60   ~ 0
 XIO55
-Text Label 10700 6700 0    60   ~ 0
+Text Label 4100 8300 0    60   ~ 0
 XIO56
-Text Label 10700 6800 0    60   ~ 0
+Text Label 4100 8400 0    60   ~ 0
 XIO57
-Text Label 10700 6900 0    60   ~ 0
+Text Label 4100 8500 0    60   ~ 0
 XIO58
-Text Label 10700 7000 0    60   ~ 0
+Text Label 4100 8600 0    60   ~ 0
 XIO59
-Text Label 10700 7100 0    60   ~ 0
+Text Label 4100 8700 0    60   ~ 0
 XIO60
-Text Label 10700 7200 0    60   ~ 0
+Text Label 4100 8800 0    60   ~ 0
 XIO61
-Text Label 10700 7300 0    60   ~ 0
+Text Label 4100 9000 0    60   ~ 0
 XIO62
-Text Label 10700 7400 0    60   ~ 0
+Text Label 4100 9200 0    60   ~ 0
 XIO63
-Text Label 10700 7500 0    60   ~ 0
+Text Label 4100 9300 0    60   ~ 0
 XIO64
-Text Label 10700 7600 0    60   ~ 0
+Text Label 4100 9400 0    60   ~ 0
 XIO65
-Text Label 10700 7700 0    60   ~ 0
+Text Label 4100 9500 0    60   ~ 0
 XIO66
-Text Label 10700 7800 0    60   ~ 0
+Text Label 4100 9600 0    60   ~ 0
 XIO67
-Text Label 10700 7900 0    60   ~ 0
+Text Label 4100 9700 0    60   ~ 0
 XIO68
-Text Label 10700 8000 0    60   ~ 0
+Text Label 4100 9800 0    60   ~ 0
 XIO69
-Text Label 10700 8100 0    60   ~ 0
+Text Label 4100 9900 0    60   ~ 0
 XIO70
-Text Label 10700 8200 0    60   ~ 0
+Text Label 4100 10000 0    60   ~ 0
 XIO71
 Text Label 11200 1100 0    60   ~ 0
 IO0
@@ -2890,4 +2890,187 @@ $EndComp
 Wire Wire Line
 	15900 8900 15800 8900
 Connection ~ 15800 8900
+$Comp
+L 74CBT16211 U1
+U 1 1 57ABCE8F
+P 5000 2050
+F 0 "U1" H 5000 3550 50  0000 C CNN
+F 1 "74CBT16211" H 5000 550 50  0000 C CNN
+F 2 "SOP63P1035X279-56N" H 5000 2050 50  0001 C CNN
+F 3 "DOCUMENTATION" H 5000 2050 50  0001 C CNN
+F 4 "TI" H 5000 2050 60  0001 C CNN "Mfg"
+F 5 "SN74CBTD16211ADGGR" H 5000 2050 60  0001 C CNN "PartNo"
+	1    5000 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74CBT16211 U2
+U 1 1 57ABCE9E
+P 5000 5350
+F 0 "U2" H 5000 6850 50  0000 C CNN
+F 1 "74CBT16211" H 5000 3850 50  0000 C CNN
+F 2 "SOP63P1035X279-56N" H 5000 5350 50  0001 C CNN
+F 3 "DOCUMENTATION" H 5000 5350 50  0001 C CNN
+F 4 "TI" H 5000 5350 60  0001 C CNN "Mfg"
+F 5 "SN74CBTD16211ADGGR" H 5000 5350 60  0001 C CNN "PartNo"
+	1    5000 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74CBT16211 U3
+U 1 1 57ABCEAD
+P 5000 8650
+F 0 "U3" H 5000 10150 50  0000 C CNN
+F 1 "74CBT16211" H 5000 7150 50  0000 C CNN
+F 2 "SOP63P1035X279-56N" H 5000 8650 50  0001 C CNN
+F 3 "DOCUMENTATION" H 5000 8650 50  0001 C CNN
+F 4 "TI" H 5000 8650 60  0001 C CNN "Mfg"
+F 5 "SN74CBTD16211ADGGR" H 5000 8650 60  0001 C CNN "PartNo"
+	1    5000 8650
+	1    0    0    -1  
+$EndComp
+Text Label 5600 900  0    60   ~ 0
+IO0
+Text Label 5600 1000 0    60   ~ 0
+IO1
+Text Label 5600 1100 0    60   ~ 0
+IO2
+Text Label 5600 1200 0    60   ~ 0
+IO3
+Text Label 5600 1300 0    60   ~ 0
+IO4
+Text Label 5600 1500 0    60   ~ 0
+IO5
+Text Label 5600 1600 0    60   ~ 0
+IO6
+Text Label 5600 1700 0    60   ~ 0
+IO7
+Text Label 5600 1800 0    60   ~ 0
+IO8
+Text Label 5600 1900 0    60   ~ 0
+IO9
+Text Label 5600 2000 0    60   ~ 0
+IO10
+Text Label 5600 2100 0    60   ~ 0
+IO11
+Text Label 5600 2200 0    60   ~ 0
+IO12
+Text Label 5600 2300 0    60   ~ 0
+IO13
+Text Label 5600 2400 0    60   ~ 0
+IO14
+Text Label 5600 2600 0    60   ~ 0
+IO15
+Text Label 5600 2700 0    60   ~ 0
+IO16
+Text Label 5600 2800 0    60   ~ 0
+IO17
+Text Label 5600 2900 0    60   ~ 0
+IO18
+Text Label 5600 3000 0    60   ~ 0
+IO19
+Text Label 5600 3100 0    60   ~ 0
+IO20
+Text Label 5600 3200 0    60   ~ 0
+IO21
+Text Label 5600 3300 0    60   ~ 0
+IO22
+Text Label 5600 3400 0    60   ~ 0
+IO23
+Text Label 5600 4200 0    60   ~ 0
+IO24
+Text Label 5600 4300 0    60   ~ 0
+IO25
+Text Label 5600 4400 0    60   ~ 0
+IO26
+Text Label 5600 4500 0    60   ~ 0
+IO27
+Text Label 5600 4600 0    60   ~ 0
+IO28
+Text Label 5600 4800 0    60   ~ 0
+IO29
+Text Label 5600 4900 0    60   ~ 0
+IO30
+Text Label 5600 5000 0    60   ~ 0
+IO31
+Text Label 5600 5100 0    60   ~ 0
+IO32
+Text Label 5600 5200 0    60   ~ 0
+IO33
+Text Label 5600 5300 0    60   ~ 0
+IO34
+Text Label 5600 5400 0    60   ~ 0
+IO35
+Text Label 5600 5500 0    60   ~ 0
+IO36
+Text Label 5600 5600 0    60   ~ 0
+IO37
+Text Label 5600 5700 0    60   ~ 0
+IO38
+Text Label 5600 5900 0    60   ~ 0
+IO39
+Text Label 5600 6000 0    60   ~ 0
+IO40
+Text Label 5600 6100 0    60   ~ 0
+IO41
+Text Label 5600 6200 0    60   ~ 0
+IO42
+Text Label 5600 6300 0    60   ~ 0
+IO43
+Text Label 5600 6400 0    60   ~ 0
+IO44
+Text Label 5600 6500 0    60   ~ 0
+IO45
+Text Label 5600 6600 0    60   ~ 0
+IO46
+Text Label 5600 6700 0    60   ~ 0
+IO47
+Text Label 5600 7500 0    60   ~ 0
+IO48
+Text Label 5600 7600 0    60   ~ 0
+IO49
+Text Label 5600 7700 0    60   ~ 0
+IO50
+Text Label 5600 7800 0    60   ~ 0
+IO51
+Text Label 5600 7900 0    60   ~ 0
+IO52
+Text Label 5600 8100 0    60   ~ 0
+IO53
+Text Label 5600 8200 0    60   ~ 0
+IO54
+Text Label 5600 8300 0    60   ~ 0
+IO55
+Text Label 5600 8400 0    60   ~ 0
+IO56
+Text Label 5600 8500 0    60   ~ 0
+IO57
+Text Label 5600 8600 0    60   ~ 0
+IO58
+Text Label 5600 8700 0    60   ~ 0
+IO59
+Text Label 5600 8800 0    60   ~ 0
+IO60
+Text Label 5600 8900 0    60   ~ 0
+IO61
+Text Label 5600 9000 0    60   ~ 0
+IO62
+Text Label 5600 9200 0    60   ~ 0
+IO63
+Text Label 5600 9300 0    60   ~ 0
+IO64
+Text Label 5600 9400 0    60   ~ 0
+IO65
+Text Label 5600 9500 0    60   ~ 0
+IO66
+Text Label 5600 9600 0    60   ~ 0
+IO67
+Text Label 5600 9700 0    60   ~ 0
+IO68
+Text Label 5600 9800 0    60   ~ 0
+IO69
+Text Label 5600 9900 0    60   ~ 0
+IO70
+Text Label 5600 10000 0    60   ~ 0
+IO71
 $EndSCHEMATC
