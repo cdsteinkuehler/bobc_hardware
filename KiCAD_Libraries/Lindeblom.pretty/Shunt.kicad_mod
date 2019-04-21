@@ -1,0 +1,12 @@
+(module Shunt (layer F.Cu) (tedit 536199AF)
+  (fp_text reference Shunt (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
+  (fp_text value VAL** (at 0 1.27) (layer F.SilkS) hide
+    (effects (font (size 0.635 0.635) (thickness 0.127)))
+  )
+  (fp_line (start -2.54 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.254))
+  (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.254))
+  (fp_line (start 2.54 1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.254))
+  (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.254))
+)

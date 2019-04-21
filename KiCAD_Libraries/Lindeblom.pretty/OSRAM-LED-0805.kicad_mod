@@ -1,0 +1,17 @@
+(module OSRAM-LED-0805 (layer F.Cu) (tedit 5712A653)
+  (attr smd)
+  (fp_text reference OSRAM-LED-0805 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.75 0.75) (thickness 0.1)))
+  )
+  (fp_text value VAL** (at 0 0.7) (layer F.SilkS) hide
+    (effects (font (size 0.45 0.45) (thickness 0.08)))
+  )
+  (fp_line (start -2.2 -1.1) (end 2.2 -1.1) (layer F.Adhes) (width 0.1))
+  (fp_line (start 2.2 -1.1) (end 2.2 1.1) (layer F.Adhes) (width 0.1))
+  (fp_line (start 2.2 1.1) (end -2.2 1.1) (layer F.Adhes) (width 0.1))
+  (fp_line (start -2.2 1.1) (end -2.2 -1.1) (layer F.Adhes) (width 0.1))
+  (fp_circle (center -2.2 0) (end -2.2 0.125) (layer F.SilkS) (width 0.25))
+  (fp_line (start 0 -0.7) (end 0 0.7) (layer F.SilkS) (width 0.2))
+  (pad K smd rect (at -1.05 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask))
+  (pad A smd rect (at 1.05 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask))
+)

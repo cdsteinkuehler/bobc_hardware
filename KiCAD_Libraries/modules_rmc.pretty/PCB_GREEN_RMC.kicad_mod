@@ -1,0 +1,13 @@
+(module PCB_GREEN_RMC (layer F.Cu) (tedit 523CF42A)
+  (fp_text reference PCB_GREEN_RMC (at 0.254 1.905) (layer F.SilkS)
+    (effects (font (size 1.524 1.524) (thickness 0.3048)))
+  )
+  (fp_text value VAL** (at 0.254 -1.143) (layer F.SilkS)
+    (effects (font (size 1.524 1.524) (thickness 0.3048)))
+  )
+  (model ..\KiCAD_Libraries\packages3d\rmc\pcb_blank\pcb_green.wrl
+    (offset (xyz 0 0 0.031))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

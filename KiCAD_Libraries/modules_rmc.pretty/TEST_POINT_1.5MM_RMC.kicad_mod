@@ -1,0 +1,12 @@
+(module TEST_POINT_1.5MM_RMC (layer F.Cu) (tedit 50E58D39)
+  (descr "test point")
+  (tags DEV)
+  (fp_text reference TP1 (at 0 -1.905) (layer F.SilkS)
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (fp_text value VREF (at 0 1.905) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (fp_circle (center 0 0) (end 0.89916 -0.50038) (layer F.SilkS) (width 0.14986))
+  (pad 1 thru_hole circle (at 0 0) (size 1.50114 1.50114) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+)
