@@ -8,7 +8,7 @@
   (lib (name 74xx1)(type Legacy)(uri /usr/share/kicad/library/74xx.lib)(options "")(descr ""))
   (lib (name RMC)(type Legacy)(uri /home/mib/Developer/the-snowwhite_git/bobc_hardware/KiCAD_Libraries/library/RMC.lib)(options "")(descr ""))
   (lib (name arduino_shieldsNCL)(type Legacy)(uri /home/mib/Developer/the-snowwhite_git/bobc_hardware/KiCAD_Libraries/library/nicholasclewis/arduino_shieldsNCL.lib)(options "")(descr ""))
-  (lib (name opendous)(type Legacy)(uri /home/mib/Developer/the-snowwhite_git/bobc_hardware/KiCAD_Libraries/library/opendous.lib)(options "")(descr ""))
+  (lib (name opendous)(type Legacy)(uri /home/mib/Developer/the-snowwhite_git/bobc_hardware/KiCAD_Libraries/library/opendous.lib)(options "")(descr "")(disabled))
   (lib (name beaglebone)(type Legacy)(uri /home/mib/Developer/the-snowwhite_git/bobc_hardware/KiCAD_Libraries/FlyingBone/beaglebone.lib)(options "")(descr ""))
   (lib (name beagleboneblack)(type Legacy)(uri /home/mib/Developer/the-snowwhite_git/bobc_hardware/KiCAD_Libraries/FlyingBone/beagleboneblack.lib)(options "")(descr ""))
 )

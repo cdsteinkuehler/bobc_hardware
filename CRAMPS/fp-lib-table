@@ -4,5 +4,5 @@
   (lib (name walter_pin_strip)(type KiCad)(uri /home/mib/Developer/the-snowwhite_git/bobc_hardware/KiCAD_Libraries/walter_pin_strip.pretty)(options "")(descr ""))
   (lib (name walter_smd_cap)(type KiCad)(uri /home/mib/Developer/the-snowwhite_git/bobc_hardware/KiCAD_Libraries/walter_smd_cap.pretty)(options "")(descr ""))
   (lib (name Tinkerforge)(type KiCad)(uri /home/mib/Developer/the-snowwhite_git/bobc_hardware/KiCAD_Libraries/Tinkerforge.pretty)(options "")(descr ""))
-  (lib (name modules_rmc)(type KiCad)(uri /home/mib/Developer/the-snowwhite_git/bobc_hardware/KiCAD_Libraries/modules_rmc.pretty)(options "")(descr ""))
+  (lib (name modules_RMC)(type KiCad)(uri /home/mib/Developer/the-snowwhite_git/bobc_hardware/KiCAD_Libraries/modules_RMC.pretty)(options "")(descr ""))
 )
