@@ -1,0 +1,11 @@
+(module FIDUCIAL-060 (layer F.Cu) (tedit 5377E494)
+  (attr smd)
+  (fp_text reference FIDUCIAL-060 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3048)))
+  )
+  (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3048)))
+  )
+  (fp_circle (center 0 0) (end 0 0.762) (layer F.Mask) (width 0.762))
+  (pad 1 smd circle (at 0 0) (size 1.524 1.524) (layers F.Cu F.Mask))
+)

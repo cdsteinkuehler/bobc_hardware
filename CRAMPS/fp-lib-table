@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name FlyingBone)(type KiCad)(uri /home/mib/Developer/the-snowwhite_git/bobc_hardware/KiCAD_Libraries/FlyingBone)(options "")(descr ""))
+  (lib (name Lindeblom)(type KiCad)(uri /home/mib/Developer/the-snowwhite_git/bobc_hardware/KiCAD_Libraries/Lindeblom.pretty)(options "")(descr ""))
+  (lib (name walter_pin_strip)(type KiCad)(uri /home/mib/Developer/the-snowwhite_git/bobc_hardware/KiCAD_Libraries/walter_pin_strip.pretty)(options "")(descr ""))
+  (lib (name walter_smd_cap)(type KiCad)(uri /home/mib/Developer/the-snowwhite_git/bobc_hardware/KiCAD_Libraries/walter_smd_cap.pretty)(options "")(descr ""))
+  (lib (name Tinkerforge)(type KiCad)(uri /home/mib/Developer/the-snowwhite_git/bobc_hardware/KiCAD_Libraries/Tinkerforge.pretty)(options "")(descr ""))
+  (lib (name modules_RMC)(type KiCad)(uri /home/mib/Developer/the-snowwhite_git/bobc_hardware/KiCAD_Libraries/modules_RMC.pretty)(options "")(descr ""))
+)

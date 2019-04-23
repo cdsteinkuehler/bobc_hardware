@@ -1,0 +1,12 @@
+(module Fuse-Loose (layer F.Cu) (tedit 5362ACA2)
+  (fp_text reference FUSE-LOOSE (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 2.54 2.54) (thickness 0.381)))
+  )
+  (fp_text value VAL** (at 0 2.54) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
+  (fp_line (start -5.5 -2) (end 5.5 -2) (layer F.SilkS) (width 0.254))
+  (fp_line (start 5.5 -2) (end 5.5 2) (layer F.SilkS) (width 0.254))
+  (fp_line (start 5.5 2) (end -5.5 2) (layer F.SilkS) (width 0.254))
+  (fp_line (start -5.5 2) (end -5.5 -2) (layer F.SilkS) (width 0.254))
+)
